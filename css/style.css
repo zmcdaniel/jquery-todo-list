@@ -1,37 +1,50 @@
 body{
   text-align:center;
-  background-image:url('http://stockarch.com/files/14/07/notebook_paper.jpg');
-  font-family: cursive;
+  background-image:url('../img/deskBg.jpg');
+  font-family: 'Indie Flower', cursive;
   color:black;
   margin: 0 auto;
   background-size:cover;
   font-size:34px;
 }
+
 h1{
   margin:40px 0 0 0;
 }
+
 #sortable{
   list-style-type: none;
   margin: 0 auto;
   list-style: none;
-  border: 1px solid gray;
+  border: 0px solid gray;
   width: 50%;
   margin: 0 auto;
 }
+
 input{
   width:500px;
 }
+
 form{
   margin: 0 auto;
   margin-top: -10px;
 }
-ul{
-  margin: 0 auto;
-}
+
 #toDo{
   text-align:center;
 }
 
 .x {
   color:red;
+}
+
+#button {
+  color: green;
+}
+
+#content {
+  background-image:url('../img/paperBg.jpg');
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 220px;
 }

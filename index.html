@@ -5,22 +5,32 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>To Do</title>
 
+  <!--   Our CSS -->
   <link rel="stylesheet" type="text/css" href="css/style.css">
+  <!--   Font Awesome Icons -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+  <!--   jQuery UI CSS -->
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.4/jquery-ui.theme.min.css">
+  <!--   Indie Flower handwriting font -->
+  <link href='https://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
 </head>
 
 
 <body>
-  <h1>To Do</h1>
 
-  <form id="addNew">
-    <input id="toDo" type="text" placeholder="Add todo list item">
-    <button id="button"><i class="fa fa-plus" aria-hidden="true"></i>   Submit</button>
-  </form>
+  <section id="content">
+  
+    <h1>To Do</h1>
+
+    <form id="addNew">
+      <input id="toDo" type="text" placeholder="Add todo list item">
+      <button id="button"><i class="fa fa-plus" aria-hidden="true"></i>   Add</button>
+    </form>
 
     <ul class='container' id='sortable'>
     </ul>
+
+  </section>
 
 <!--   jQuery -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.3/jquery.min.js"></script>
