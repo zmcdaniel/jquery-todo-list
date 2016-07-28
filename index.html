@@ -3,9 +3,30 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Hello Front-End</title>
+  <title>To Do</title>
+
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.4/jquery-ui.theme.min.css">
 </head>
+
+
 <body>
-  <h1>Hello Front-End</h1>
+  <h1>To Do</h1>
+
+  <form id="addNew">
+    <input id="toDo" type="text" placeholder="Add todo list item">
+    <button id="button"><i class="fa fa-plus" aria-hidden="true"></i>   Submit</button>
+  </form>
+
+    <ul class='container' id='sortable'>
+    </ul>
+
+<!--   jQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.3/jquery.min.js"></script>
+<!-- jQuery UI -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+<!--   Our JS -->
+  <script src='js/script.js'></script>
 </body>
 </html>
